@@ -8,23 +8,23 @@ const Header = () => {
         <div className="h-full w-[10rem] flex items-center justify-center py-4 overflow-hidden">
           <Logo />
         </div>
-        <a href="" className="font-[500] text-[16px]">
+        <a href="/" className="font-[500] text-[16px]">
           <div className="text-[16px] font-[500] hover:border-b-2 border-[#900000] py-2 transition-all duration-150 ease-in-out">
             Our Services
           </div>
         </a>
         <div className="flex flex-row">
-          <a href="" className="font-[500] text-[16px]">
+          <a href="/" className="font-[500] text-[16px]">
             <div className="px-3 text-[16px] font-[500] hover:border-b-2 border-[#900000] py-2 transition-all duration-150 ease-in-out">
               About
             </div>
           </a>
-          <a href="">
+          <a href="/">
             <div className="px-3 text-[16px] font-[500] hover:border-b-2 border-[#900000] py-2 transition-all duration-150 ease-in-out">
               Solution
             </div>
           </a>
-          <a href="">
+          <a href="/">
             <div className="px-3 text-[16px] font-[500] hover:border-b-2 border-[#900000] py-2 transition-all duration-150 ease-in-out">
               Products
             </div>

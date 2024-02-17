@@ -24,7 +24,7 @@ const Header = () => {
               Solution
             </div>
           </a>
-          <a href="/">
+          <a href="/  ">
             <div className="px-3 text-[16px] font-[500] hover:border-b-2 border-[#900000] py-2 transition-all duration-150 ease-in-out">
               Products
             </div>

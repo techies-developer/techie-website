@@ -6,9 +6,9 @@ const Pricing = () => {
   const handleClick = () => {
     setIsToggled((prevState) => !prevState);
   };
-  
+
   return (
-    <section className="container items-center justify-center text-center">
+    <section className="items-center justify-center text-center">
       <div className="heading">
         <h1 className="text-[50px] leading-[60px] font-[600]">
           Ready to get started with Tekie?
@@ -17,8 +17,12 @@ const Pricing = () => {
           Choose the package that suits you
         </p>
       </div>
-      <div className="pricing">
-        <button onClick={handleClick}>{isToggled ? "ON" : "OFF"}</button>
+      <div className="w-[15%] items-center justify-between mx-auto">
+        <div className="pricing flex  items-center justify-between text-center">
+          <p>Monthly</p>
+          <button onClick={handleClick}>{isToggled ? "ON" : "OFF"}</button>
+          <p>Yearly</p>
+        </div>
       </div>
     </section>
   );

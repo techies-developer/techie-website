@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import MonthlyPriceList from "./MonthlyPriceList";
 
 const Pricing = () => {
   const [isToggled, setIsToggled] = useState(false);
@@ -17,12 +18,16 @@ const Pricing = () => {
           Choose the package that suits you
         </p>
       </div>
-      <div className="w-[15%] items-center justify-between mx-auto">
-        <div className="pricing flex  items-center justify-between text-center">
-          <p>Monthly</p>
+      <div className="items-center justify-center text-center pt-[25px] w-[25%] mx-auto">
+        <div className="pricing flex items-center justify-evenly">
+          <span>Monthly</span>
           <button onClick={handleClick}>{isToggled ? "ON" : "OFF"}</button>
-          <p>Yearly</p>
+          <span>Yearly</span>
         </div>
+      </div>
+      {/* Pricelist Tab */}
+      <div className="">
+        <MonthlyPriceList />
       </div>
     </section>
   );

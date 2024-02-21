@@ -9,8 +9,8 @@ function App() {
   return (
     <div className='w-full h-full section-hidden'>
       <Header />
-      <Pricing />
       <HeroSection />
+      <Pricing />
       <CtaSection
         topInput=' "Transforming ideas into'
         middleInput='digital reality, one line of code'
